@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+
+      font-family: Helvetica, Arial, sans-serif;
+      display: block;
+    }
+    /* apply styles to <header> */
+  header {
+      padding: 20px 35px;
+      background-color: #1f9e9ebd;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    header h1 a {
+      font-weight: bold;
+      font-size: 36px;
+      color: white;
+      margin: 0;
+    }
+    header a {
+      text-decoration: none;
+      color: white;
+    }
+    header nav {
+      margin: 7px 0;
+    }
+  
+    header nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+    }
+  
+    header nav ul li a {
+      margin: 0 30px;
+      font-weight: lighter;
+      font-size: 1.55vw;
+    }
+    header h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: #fce138;
+      margin: 0;
+    }
+  /* header style finish here*/
+
+/*grid style*/
+  
+.continer {
+  grid-template-columns: 1fr 3fr;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows:repeat (1, 1fr);
+    grid-gap: 20px;
+    grid-auto-flow: dense;
+}
+
+.item1 {
+    grid-row: span 1;
+    border: 1px dotted black;
+}
+#background-header{
+    background-image: url("./image/header1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: repeat(1, 1fr)!important; 
+    grid-auto-rows: minmax(200px, 1fr);
+
+}
+.float{
+    float: right;
+    color: #ffff;
+    padding-top: 150px;
+    font-size:  40px ;
+    -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  
+
+}
+.float:hover{
+    color: rgb(74, 255, 122);
+    
+}
+#about-me {
+    /* margin-left: auto;
+    margin-right: auto; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat (2, 1fr);
+}
+/* .text-about {
+    background-color: transparent !important;
+    font-size: 15px !important;
+    grid-column: 2 / span 2 !important;
+    grid-row: 1 / span 2 !important;
+    align-items: flex-start !important;
+} */
+
+.grid-item {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid rgba(0, 0, 0, 0.2); */
+    margin: 10px 5px;
+    border-radius: 5px;
+    font-size: 35px;
+    background-color: gray;
+    grid-row-end: span 3;
+  }
+  #work{
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:repeat (12, 1fr);
+  }
+  .item-1 {
+    grid-column: 1 / 1;
+    grid-row: 1 / span 30;
+    align-items: flex-start;
+     
+  }
+
+  .item-2 {
+    grid-column: 2 / span 6;
+    grid-row: 1 / span 19;
+    background-image: url(./Image/runbuddy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  .item-3 {
+    grid-column: 3 / span 1.5;
+    grid-row: 20 / span 10;
+  }
+
+  .item-4 {
+    grid-column: 2 / span 1.5;
+    grid-row: 20 / span 10;
+  }
+  .item-5 {
+    grid-column: 5 / span 1.5;
+    grid-row: 1 / span 10;
+  }
+  .item-6 {
+    grid-column: 5 / span 1.5;
+    grid-row: 1 / span 10;
+  }
+
