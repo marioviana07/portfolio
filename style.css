@@ -58,7 +58,6 @@
     grid-template-rows: repeat(12, 1fr);
     grid-gap: 20px;
     grid-auto-flow: dense;
-    grid-gap: 5px;
 }
 #background-header{
     background-image: url("./image/header1.jpg");
@@ -165,17 +164,18 @@
   .item-5 {
     grid-column: 9/ span 5;
     grid-row: 3 / span 1;
-    background-image: url(./Image/abstract-background-beach-color-355288.jpg);
+    background-image: url(./Image/abandoned-ancient-antique-architecture-235986.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px solid yellowgreen;
     margin: 10px;
     width: 100%;
+    
   }
   .item-6 {
     grid-column: 9/ span 5;
     grid-row: 4 / span 1;
-    background-image: url(./Image/IMG_8958.JPG);
+    background-image: url(./Image/IMG_8600.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px solid yellowgreen;
