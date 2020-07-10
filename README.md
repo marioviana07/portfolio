@@ -8,9 +8,11 @@ area where you will see the programs developed and the results of some. Also the
  a little more to talk about the other developers that I can use, thanks for paying attention to my portfolio 
  and I hope that we will be in contact soon.
 
-<img src = "Image/Untitled_Artwork.png" width = "200" >
-
  ![](Image/runbuddy.png) 
+
+ ![](Imasge/Beginning.png)
+
+ ![](Image/Mock-up.png)
 
 
  
