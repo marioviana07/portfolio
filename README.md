@@ -10,7 +10,7 @@ area where you will see the programs developed and the results of some. Also the
 
  ![](Image/runbuddy.png) 
 
- ![](Imasge/Beginning.png)
+ ![](Image/Beginning.png)
 
  ![](Image/Mock-up.png)
 
