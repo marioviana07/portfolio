@@ -236,7 +236,7 @@ header h1 {
 .item-6 {
     grid-column: 16/ span 7;
     grid-row: 4 / span 1;
-    background-image: url(./Image/IMG_8600.JPG);
+    background-image: url(./Image/Workday.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px solid yellowgreen;
