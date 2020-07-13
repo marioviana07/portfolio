@@ -8,11 +8,17 @@ area where you will see the programs developed and the results of some. Also the
  a little more to talk about the other developers that I can use, thanks for paying attention to my portfolio 
  and I hope that we will be in contact soon.
 
- ![](Image/runbuddy.png) 
+ ![](Image/Hike-finder.png) 
 
  ![](Image/Beginning.png)
 
  ![](Image/Mock-up.png)
+
+ ![](Image/runbuddy.png)
+
+ ![](Image/Workday.png)
+
+
 
 
  
