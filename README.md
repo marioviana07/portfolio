@@ -10,7 +10,7 @@ area where you will see the programs developed and the results of some. Also the
 
  ![](Image/Hike-finder.png) 
 
- ![](Image/Beginning.png)
+ ![](Image/Home.png)
 
  ![](Image/Mock-up.png)
 
