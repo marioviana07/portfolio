@@ -16,7 +16,7 @@ area where you will see the programs developed and the results of some. Also the
 
  ![](Image/runbuddy.png)
 
- ![](Image/Workday.png)
+ ![](Image/main.jpg)
 
 
 
